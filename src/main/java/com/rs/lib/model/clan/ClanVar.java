@@ -1824,8 +1824,8 @@ public enum ClanVar {
 /*2068	int	2147483647	*/
 /*2069	int	2147483647	*/
 /*2070	int	2147483647	*/
-/*2074	int	8			*/
-/*2075	int	1			*/
+/*2074	int	8			*/ CITADEL_LAYOUT(2074),
+/*2075	int	1			*/ CITADEL_NIGHTDAY(2075),
 /*2076	int	16			*/
 /*2077	int	16			*/
 /*2078	int	16			*/
@@ -2243,7 +2243,7 @@ public enum ClanVar {
 /*2577	int	8			*/
 /*2578	int	8			*/
 /*2579	int	8			*/
-/*2580	int	8			*/
+/*2580	int	8			*/ CITADEL_TIER(2580),
 /*2581	int	8			*/
 /*2582	int	8			*/
 /*2584	int	1			*/
