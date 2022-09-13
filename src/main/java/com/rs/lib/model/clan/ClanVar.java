@@ -1824,7 +1824,7 @@ public enum ClanVar {
 /*2068	int	2147483647	*/
 /*2069	int	2147483647	*/
 /*2070	int	2147483647	*/
-/*2074	int	8			*/ CITADEL_LAYOUT(2074),
+/*2074	int	8			*/ CITADEL_NEXT_BUILD_LAYOUT(2074),
 /*2075	int	1			*/ CITADEL_NIGHTDAY(2075),
 /*2076	int	16			*/
 /*2077	int	16			*/
@@ -2244,8 +2244,8 @@ public enum ClanVar {
 /*2578	int	8			*/
 /*2579	int	8			*/
 /*2580	int	8			*/ CITADEL_TIER(2580),
-/*2581	int	8			*/
-/*2582	int	8			*/
+/*2581	int	8			*/ CITADEL_STOREHOUSE_TIER(2581),
+/*2582	int	8			*/ CITADEL_BATTLEFIELD_TIER(2582),
 /*2584	int	1			*/
 /*2585	int	1			*/
 /*2586	int	1			*/
@@ -2260,7 +2260,7 @@ public enum ClanVar {
 /*2595	int	1			*/
 /*2596	int	1			*/
 /*2597	int	1			*/
-/*2598	int	32			*/
+/*2598	int	32			*/ CITADEL_CURRENT_BUILD_LAYOUT(2598),
 /*2599	int	1			*/
 /*2600	int	1			*/
 /*2602	int	1			*/

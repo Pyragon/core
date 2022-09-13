@@ -62,6 +62,12 @@ public class Clan {
 		setSetting(ClanSetting.HOME_WORLD, 1);
 		setSetting(ClanSetting.MOTIF_TOP_ICON, 1);
 		setSetting(ClanSetting.MOTIF_BOTTOM_ICON, 2);
+		setVar(ClanVar.CITADEL_NIGHTDAY, 1);
+		setVar(ClanVar.CITADEL_TIER, 1);
+		setVar(ClanVar.CITADEL_NEXT_BUILD_LAYOUT, 0);
+		setVar(ClanVar.CITADEL_CURRENT_BUILD_LAYOUT, 0);
+		setVar(ClanVar.CITADEL_STOREHOUSE_TIER, 1);
+		setVar(ClanVar.CITADEL_BATTLEFIELD_TIER, 1);
 		guestsInChatCanEnter = true;
 		guestsInChatCanTalk = true;
 		minimumRankForKick = ClanRank.OWNER;
